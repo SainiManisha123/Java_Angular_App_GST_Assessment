@@ -34,6 +34,7 @@ Assessment
 
 
 6.	Sale List
- ![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/6023f1da-6506-43f2-8c05-edb7b20b8d37)
+
 
 
