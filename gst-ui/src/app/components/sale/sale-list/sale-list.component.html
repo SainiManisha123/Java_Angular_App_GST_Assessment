@@ -1,0 +1,22 @@
+<table>
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>Quantity</th>
+      <th>Rate</th>
+      <th>Tax</th>
+      <th>Total Price</th>
+      <th>Sale Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let sale of sales">
+      <td>{{ sale.product.name }}</td>
+      <td>{{ sale.quantity }}</td>
+      <td>{{ sale.product.price }}</td>
+      <td>{{ sale.taxAmount }}</td>
+      <td>{{ sale.totalPrice }}</td>
+      <td>{{ sale.saleDate | date }}</td>
+    </tr>
+  </tbody>
+</table>

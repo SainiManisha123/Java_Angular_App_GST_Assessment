@@ -1,0 +1,98 @@
+// Define color variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$text-color: #343a40;
+$border-radius: 5px;
+
+// Body and HTML styles
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+// Container for overall layout
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+// Form styles
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: $border-radius;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid $secondary-color;
+    border-radius: $border-radius;
+  }
+}
+
+// Button styles
+button {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: $border-radius;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+// Table styles
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+  th, td {
+    border: 1px solid $secondary-color;
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: $primary-color;
+    color: #fff;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+}
+
+// Navbar styles (if any)
+.navbar {
+  background-color: $primary-color;
+  padding: 10px;
+  
+  a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+    
+    &:hover {
+      color: lighten($primary-color, 20%);
+    }
+  }
+}
