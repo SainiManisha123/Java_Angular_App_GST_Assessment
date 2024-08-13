@@ -1,0 +1,31 @@
+<table>
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>Quantity</th>
+      <th>Rate</th>
+      <th>Tax</th>
+      <th>Total Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let sale of sales">
+      <td>{{ sale.product.name }}</td>
+      <td>{{ sale.quantity }}</td>
+      <td>{{ sale.product.price }}</td>
+      <td>{{ sale.taxAmount }}</td>
+      <td>{{ sale.totalPrice }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Submit Button to Generate Final Bill -->
+<button (click)="generateFinalBill()">Submit</button>
+
+<!-- Display Final Bill -->
+<div *ngIf="finalBill">
+  <h3>Final Bill</h3>
+  <p>Total Amount: {{ finalBill.totalAmount | currency }}</p>
+  <p>Total Tax: {{ finalBill.totalTax | currency }}</p>
+  <p>Total Quantity: {{ finalBill.totalQuantity }}</p>
+</div>

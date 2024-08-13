@@ -1,0 +1,31 @@
+.stat {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    text-align: center;
+  
+    .stat-title {
+      font-size: 1rem;
+      color: #6b7280;
+    }
+  
+    .stat-value {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  
+    .text-primary {
+      color: #1c64f2;
+    }
+  
+    .text-secondary {
+      color: #9333ea;
+    }
+  
+    .text-accent {
+      color: #dc2626;
+    }
+  }
+  

@@ -1,0 +1,53 @@
+@import 'src/styles.scss';
+
+.sale-form {
+    .form-group {
+      margin-bottom: 15px;
+  
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+  
+      input, select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid $secondary-color;
+        border-radius: $border-radius;
+      }
+    }
+  
+    .sale-table {
+      width: 100%;
+      margin-top: 20px;
+      
+      th, td {
+        padding: 10px;
+        border: 1px solid $secondary-color;
+      }
+  
+      th {
+        background-color: $primary-color;
+        color: #fff;
+      }
+  
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    }
+  
+    .btn-submit {
+      background-color: $primary-color;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: $border-radius;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+  }
+  
