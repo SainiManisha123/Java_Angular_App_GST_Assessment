@@ -1,8 +1,0 @@
-<div>
-  <h2>Product List</h2>
-  <ul>
-    <li *ngFor="let product of products">
-      {{ product.name }} - {{ product.price | currency }} - {{ product.category.name }} ({{ product.category.gstRate }}%)
-    </li>
-  </ul>
-</div>
