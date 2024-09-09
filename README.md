@@ -1,5 +1,4 @@
-# sphota
-Assessment
+# Assessment
 
 •	Starting the application
 1.	Backend 
