@@ -34,7 +34,10 @@ Assessment
 
 
 6.	Sale List
-![image](https://github.com/user-attachments/assets/f4fa15ab-7fe9-4bf0-9227-10d1b259db9c)
+![image](https://github.com/user-attachments/assets/a9e1d330-d181-4893-98f3-e9b269fca1b3)
+
+7. Dashboard Statics
+   ![image](https://github.com/user-attachments/assets/f384cbf9-7259-4574-9493-16029ce25c25)
 
 
 
